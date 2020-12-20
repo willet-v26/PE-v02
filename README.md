@@ -1,6 +1,3 @@
-# P:E-v02
-2016 | Website
-
 ![preview](./images-view/preview.png)
 ### Concept:
 The concept was to base the page template on the harmonic division, the golden ratio. The golden portion.
