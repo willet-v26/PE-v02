@@ -1,0 +1,127 @@
+/* CSS Document */
+
+/* ----------------------------------- */
+/* Styles for Printing                 */
+/* ----------------------------------- */
+
+/*@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	height: auto !important;
+	display: block !important;
+	overflow: visible !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}*/
+
+/* ----------------------------------- */
+/* nowe menu */
+/* ----------------------------------- */
+.nowe_menu {
+	width: 453px;
+	float: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 15px;
+	font-style: normal;
+	font-size: 13px;
+}
+/* -------------------*/
+/* favicon            */
+/* -------------------*/
+.nowe_menu a.menu_favicon: {
+	background-color: inherit;
+}
+.nowe_menu a.menu_favicon:hover {
+	background-color: inherit;
+}
+a.menu_favicon i.icon-home {
+	margin-left: -8px;
+	padding-left: 0px;
+}
+a.menu_favicon i.icon-home:hover {
+	text-decoration: none;
+}
+/*index*/
+
+/*path*/
+
+/* -------------------*/
+/*   a                */
+/* -------------------*/
+.nowe_menu a {
+	height: auto;
+	display: block;
+	margin-left: -4px;/*because padding-left: 4px;*/
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 4px;
+	padding-right: 3px;
+}
+.nowe_menu a:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	background-color: #DF4C4C;
+	padding-left: 4px;
+	padding-right: 3px;
+}
+/* -------------------*/
+/*   menu1, menu2     */
+/* -------------------*/
+.nowe_menu ul.menu1,
+.nowe_menu ul.menu2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 0.8em;
+	padding-top: auto;		
+}
+ul.menu1,
+ul.menu2 {
+	margin-right: 5px;
+}
+.nowe_menu li.s_glowna {
+	margin-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #DF4C4C;
+	text-height: font-size;
+	font-style: normal;
+	font-weight: 800;
+}
+ul.menu1 p,
+ul.menu2 p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.nowe_menu ul.menu1 p {
+	display: block;
+	width: auto;/*170px;*/
+	margin-left: -2px;
+	padding: 2px;
+}
+.nowe_menu ul.menu2 p {
+	display: block;
+	width: auto;/*240px;*/
+	margin-left: -2px;
+	padding: 2px;
+}
+
+/* -------------------*/
+/*                    */
+/* -------------------*/
+.nowe_menu li {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}

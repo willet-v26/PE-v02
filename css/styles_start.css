@@ -1,0 +1,88 @@
+@charset "windows-1250";
+
+/* Uk³ad na telefony: szerokoœæ 480 px i mniejsza. */
+@media only screen and (min-width: 240px) {
+#mainContentStart {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	clear: none;
+	float: right;
+	width: 96.5%;
+	display: block;
+	border: 1px solid rgba(204,204,204,1);
+}
+}
+
+/* Uk³ad na tablety: szerokoœæ od 481 px do 768 px. Dziedziczenie stylów z uk³adu na telefony. */
+@media only screen and (min-width: 481px) {
+#mainContentStart {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	clear: none;
+	float: right;
+	width: 67%;
+	display: block;
+	border: 1px solid rgba(204,204,204,1);
+}
+}
+
+/* Uk³ad na komputer: od 769 px do maksimum 936 px. Dziedziczenie stylów z uk³adów na telefony i tablety. */
+@media only screen and (min-width: 769px) {
+#mainContentStart {
+	width: 67%;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	clear: none;
+	float: right;
+	display: block;
+}
+}
+
+/* Uk³ad na komputer: od 936 px do maksimum px. Dziedziczenie stylów z uk³adów na komputer */
+@media only screen and (min-width: 936px) {
+
+#mainContentStart {
+	width: 602px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	background-color: rgba(255,255,255,1);
+	border: 1px solid rgba(204,204,204,1);
+	float: right;
+	display: block;
+	clear: none;
+}
+}
+
+#mainContentStart a img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(204,204,204,1);
+}
+#mainContentStart a img:hover {
+	font-family: CALIBRI;
+	color: rgba(0,0,0,1);
+	background-color: rgba(51,170,252,0.5);
+	cursor: crosshair;
+	filter: Mask(rgba(51,170,252,0.5));
+}

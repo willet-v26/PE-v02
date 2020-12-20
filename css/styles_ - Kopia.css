@@ -1,0 +1,317 @@
+/***************************************************************/
+/* Ustawienie szkieletu                                        */
+/***************************************************************/
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	cursor: crosshair;		
+}
+.container {
+	/*margin: auto;*/
+}
+.naglowek {
+	width: 100%;/*wartosc 100% oznacza dopasowanie automatyczne strony, bez irytujacego dolnego paska przewijania*/
+	height: 50px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+div#logo {
+	width: 1186px;/*1187px-1px*/
+	height: 49px;
+	float: left;
+	/*background-color: #AFEFF3;*/
+	background-color: #FFb;
+	text-align: right;
+	margin-left: 0px;
+	border-right: 1px solid #CCCCCC;
+}
+
+#language {
+	width: auto;/*714px;*/
+	height: 49px;
+	float: right;
+	margin-top: 0px;
+	padding-top: 31px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.language_icon {
+	float: right;
+}
+.main {
+	float: left;
+	width: 734px;/*734px-2px-600px=132/2=66*/
+	margin-top: 50px;
+	margin-bottom: 45px;
+	padding-top: 0px;
+	padding-left: 66px;
+	padding-right: 66px;
+	border-left: 1px solid #CCCCCC;	
+	border-right: 1px solid #CCCCCC;	
+}
+.main_index {
+	margin-top: 65px;
+}
+div.others {
+	width: auto;/*100%;/*508px;*/
+	float: left;
+	margin-top: 102px;
+	margin-bottom: 50px;
+	padding-top: 0px;
+	padding-left: 0px;/*66px;*/
+	padding-right: 0px;
+}
+.idea {
+	width: auto;
+	float: left;
+	margin-top: 92px;
+	padding-left: 0px;
+}
+.footer {
+	clear: both;
+	width: 734px;
+	margin-left: 454px;
+	margin-top: 0px;
+	border-top: 1px dashed #CCCCCC;
+}
+/***************************************************************/
+/* Ustawienie czcionek                                         */
+/***************************************************************/
+h1 {
+	font-family: Neuropol;
+	font-size: 40px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 12px;
+	margin-left: 0px;
+	padding: 0px;
+	color: #2B3E51;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1:hover {
+	font-family: Neuropol;
+	font-size: 40px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 12px;
+	margin-left: 0px;
+	padding: 0px;
+	color: #DF4C4C;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	cursor: crosshair;
+}
+h2.title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+h2.title_Project_card a{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+}
+h2.title_Project_card a:hover{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	color: #666666;
+	text-decoration: none;
+}
+h2.title_Project_card {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.Project_card {
+}
+h4 {
+	/* [disabled]font-style: normal; */
+	/* [disabled]text-indent: 0px; */
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	font-size: 13px;
+}
+li {
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: left;
+	list-style-type: none;
+	list-style-position: outside;
+}
+ul {
+	font-size: 12px;
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-position: outside;
+}
+p {
+	font-size: 12px;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	line-height: 1.4em;
+}
+/***************************************************************/
+/* Ustawienie obrazków, icon, linków                           */
+/***************************************************************/
+img.image  {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+img.image_index  {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #CCCCCC;
+}
+a.language_icon2 {
+	margin-left: 8px;
+	margin-right: 0px;
+	text-decoration: none;
+	color: #CCCCCC;	
+}
+a.language_icon2:hover {
+	margin-left: 8px;
+	margin-right: 0px;
+	text-decoration: none;
+	color: #919191;
+}
+a {
+	font-size: 12px;
+	text-decoration: none;
+ 	color: #2b3e51;
+}
+a:hover {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #2b3e51;
+}
+a.pdf {
+	text-decoration: none;
+	color: #949494;
+	font-weight: normal;
+	list-style-position: outside;
+}
+a.pdf:hover {
+	text-decoration: underline;
+	color: rgba(241,116,113,1);
+	cursor: pointer;
+}
+a.pdf2 {
+	margin-left: 33px;
+	text-decoration: none;
+	color: #949494;
+	font-weight: normal;
+	list-style-position: outside;
+	list-style-type: none;
+}
+a.pdf2:hover {
+	text-decoration: underline;
+	color: rgba(241,116,113,1);
+	cursor: pointer;
+}
+.wybrane_proj {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.kontakt {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	border-top: 1px dashed #CCCCCC;
+}
+.copyright {
+	font-size:12px;
+	color: rgba(183,183,183,1);
+}
+.copyright_contact {
+	font-size:12px;
+	color: rgba(183,183,183,1);
+}
+.copyright_contact:hover {
+	font-size:12px;
+	color: rgba(183,183,183,1);
+}
+/***************************************************************/
+/* nawigacja                                                   */
+/***************************************************************/
+.navigation_top {
+	width: 69px;
+	margin-top: -10px;
+	margin-bottom: 70px;
+	margin-left: 543px;
+}
+i.icon-left-open {
+	float: left;
+	margin: 0px;	
+	padding: 0px;
+	color: #CCCCC;
+}
+i.icon-left-open:hover {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	color: #2B3E51;
+	font-size: 25px;
+}
+#next {
+	float: left;	
+	margin-left: 10px;
+	padding: 0px;
+}
+next:hover {
+	float: left;	
+	margin-left: 10px;
+	padding: 0px;
+	color: #2B3E51;	
+}
+.navigation_bottom {
+	margin-top: 0px;	
+	margin-left: 578px;
+	margin-bottom: -15px;	
+}
+#up {
+}
+#up.i:hover {
+	color: #2B3E51;		
+}
+/***************************************************************/
+/* Cookie warning                                              */
+/***************************************************************/
+#cookie-warn {
+	height: 100px;
+	width: auto;
+	position: fixed;
+	bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	display: none;
+	z-index: 99;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+#cookie-warn p {
+	font-size: 12px;
+	color: #666;
+	width: auto;
+	/*padding-left: 505px;*/
+}
+#cookie-warn a {
+	padding-left: 0px;
+	color: #FF6600;
+	text-transform: uppercase;
+	text-decoration: blink;
+	/* [disabled]padding-left: px; */
+	/*float: right;*/
+}
