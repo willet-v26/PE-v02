@@ -6,7 +6,7 @@
 The concept was to base the website template on the harmony, the golden ratio. The golden portion.
 - (a + b) / a = a / b ≡ φ
 - φ = (1 + √5) / 2 = 1.618 ..
-- en.wikipedia.org/wiki/Golden_ratio
+- https://en.wikipedia.org/wiki/Golden_ratio
 
 
 ### General info:
