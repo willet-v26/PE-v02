@@ -6,7 +6,7 @@
 
 
 ### General info:
-2016 | Architectural portfolio/Website
+2016 | Architectural portfolio
 	
 ### Technologies:
 Project is created with:
