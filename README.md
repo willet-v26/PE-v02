@@ -3,7 +3,7 @@
 
 ![preview](./images-view/preview.png)
 ### Project:
--
+
 
 ### General info:
 2016 | Architectural portfolio/Website
