@@ -13,3 +13,6 @@ The concept was to base the page template on the harmonic division, the golden r
 Project is created with:
 * Html
 * CSS
+
+### Comments:
+The content of the files was limited to the necessary elements (100).
